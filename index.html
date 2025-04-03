@@ -37,13 +37,19 @@
         h1, h2 {
             color: #444;
         }
+        .intro-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .intro-text {
+            width: 60%;
+        }
         .profile-pic {
             width: 150px;
             height: 150px;
             background: url('https://via.placeholder.com/150');
             background-size: cover;
-            display: block;
-            margin: 20px auto;
             border-radius: 50%;
         }
         .skills-list, .projects-list {
@@ -69,9 +75,12 @@
         <h1>My Professional Portfolio</h1>
     </header>
     <div class="container">
-        <div class="section" id="introduction">
-            <h2>Introduction</h2>
-            <p>Welcome to my professional website. Here you will find information about my skills, experience, and projects.</p>
+        <div class="section intro-container" id="introduction">
+            <div class="intro-text">
+                <h2>Introduction</h2>
+                <p>Welcome to my professional website. Here you will find information about my skills, experience, and projects.</p>
+            </div>
+            <div class="profile-pic"></div>
         </div>
         <div class="section" id="core-skills">
             <h2>Core Skills</h2>
@@ -92,10 +101,6 @@
                 <li><strong>Project Name</strong>: Brief description of what the project is about.</li>
                 <li><strong>Project Name</strong>: Brief description of what the project is about.</li>
             </ul>
-        </div>
-        <div class="section" id="photo">
-            <h2>Photo</h2>
-            <div class="profile-pic"></div>
         </div>
     </div>
     <div class="footer">
