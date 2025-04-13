@@ -106,12 +106,12 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background-color: #fff;
+    background: #000000;
     border: none;
 }
 
 nav.navbar.bootsnav {
-    background-color: #fff;
+    background: #000000;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
 }
@@ -119,7 +119,7 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color:rgb(182 54 255);
+    color:#9f00ff;
     font-size: 20px;
     font-weight: 600;
     padding: 33px 0px 57px;
@@ -215,7 +215,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: ;}
 }
 .header-text h2 span {color: #ffffff;}
 .header-text p {
-    color: #fff;
+    color: #fdfdfd;
     font-size: 20px;
     font-weight: 300;
     text-transform: uppercase;
@@ -290,6 +290,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: ;}
     height: 100%;
     background: rgba(31, 44, 108, 0.3);
 }
+
 .single-about-img img {
     width: 100%;
     height: auto;
@@ -380,7 +381,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         6.  Skills
 --------------------------------------*/
 .skills {
-    
+    background: #f9fbfd;
 }
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
@@ -451,6 +452,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .experience {
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
+    background: #f9fbfd;
 }
 .experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
@@ -532,6 +534,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .projects {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
+    background: #f9fbfd;
 }
 
 .projects-content {padding-top: 100px;}
